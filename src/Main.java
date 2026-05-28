@@ -12,17 +12,17 @@ public class Main {
 
          Curso curso1 = new Curso();
          curso1.setTitulo("Curso java");
-         curso1.setDescricao("descricao curso java");
+         curso1.setDescricao("descrição curso java");
          curso1.setCargaHoraria(8);
 
          Curso curso2 = new Curso();
          curso2.setTitulo("Curso js");
-         curso2.setDescricao("descricao curso js");
+         curso2.setDescricao("descrição curso js");
          curso2.setCargaHoraria(4);
 
          Mentoria mentoria = new Mentoria();
          mentoria.setTitulo("mentoria de java");
-         mentoria.setDescricao("descricao mentoria java");
+         mentoria.setDescricao("descrição mentoria java");
          mentoria.setData(LocalDate.now());
 
          /*System.out.println(curso1);
@@ -31,7 +31,7 @@ public class Main {
 
          BootCamp bootcamp = new BootCamp();
          bootcamp.setNome("Bootcamp java Developer");
-         bootcamp.setDescricao("Descricao Bootcamp java Developer");
+         bootcamp.setDescricao("Descrição Bootcamp java Developer");
          bootcamp.getConteudos().add(curso1);
          bootcamp.getConteudos().add(curso2);
          bootcamp.getConteudos().add(mentoria);
